@@ -6,6 +6,5 @@ object App {
 
     val list = List(1, 2, 3)
     println(list.map(_ + 1))
-
   }
 }
