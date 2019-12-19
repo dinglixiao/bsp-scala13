@@ -8,5 +8,7 @@ object App {
     println(list.map(_ + 1))
 
     println("hello first")
+
+    println(list.size)
   }
 }
