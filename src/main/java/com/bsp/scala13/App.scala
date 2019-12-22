@@ -1,5 +1,7 @@
 package com.bsp.scala13
 
+import cats.Apply
+
 object App {
 
   def main(args: Array[String]): Unit = {
@@ -8,5 +10,7 @@ object App {
     println(list.map(_ + 1))
 
     println(list.size)
+
+    Apply
   }
 }
